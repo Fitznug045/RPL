@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="./css/signuplogin.css" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Mencegah scroll */
+            height: 0vh;
+            top: -25px;
+            background-color: #f0f0f0; /* Ganti dengan warna latar belakang sesuai keinginan */
+            position: relative;
+        }
+        /* Kustomisasi kotak input */
+        .custom-pass {
+            padding: 10px;
+            border: 2px solid #ffffff;
+            border-radius: 5px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s ease;
+            width: 390px;
+            height: 46px; /* Ubah lebar sesuai kebutuhan */
+            background-color: #888;
+            color: #000;
+            top: 453px;
+            left: 525px;
+        }
+
+        /* Efek hover pada kotak input */
+        .custom-pass:hover {
+            border-color: #909090;
+        }
+
+        /* Efek focus pada kotak input */
+        .custom-pass:focus {
+            border-color: #000000;
+            background-color: #ffffff;
+        }
+        .custom-input {
+            padding: 10px;
+            border: 2px solid #ffffff;
+            border-radius: 5px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s ease;
+            width: 390px;
+            height: 46px; /* Ubah lebar sesuai kebutuhan */
+            background-color: #888;
+            color: #000;
+            top: 364px;
+            left: 525px;
+        }
+
+        /* Efek hover pada kotak input */
+        .custom-input:hover {
+            border-color: #909090;
+        }
+
+        /* Efek focus pada kotak input */
+        .custom-input:focus {
+            border-color: #000000;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="v168_20">
+        <div class="v168_21"></div>
+        <span class="v168_34">or</span>
+        <span class="v168_35">Already have an account? <a href="Login.html" class="login-link">Log in</a></span>
+        <a href="Landing.html" class="v168_36"></a>
+        <span class="v168_37">Sign Up</span>
+        <span class="v168_24">Sign Up</span>
+        <span class="v168_25">Password</span>
+        <input type="text" class="v168_32 custom-input" id="username" placeholder="username">
+        <div class="v168_26"></div>
+        <!-- Menggunakan kelas custom-input untuk mengkustomisasi kotak input -->
+        <input type="text" class="v168_27 custom-pass" id="password" placeholder="password">
+        <span class="v168_30">Username</span>
+        <div class="v168_31"></div>
+        <div class="v168_33">
+            <span class="star">star</span><span class="film">film</span>
+          </div>          
+    </div>
+</body>
+</html>
